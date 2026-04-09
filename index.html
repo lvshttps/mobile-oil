@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LVS Mobile Oil | Riverside CA</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background: linear-gradient(135deg,#0a0a0a 0%, #1a1a1a 45%, #e8dfd3 120%);
+    color:#f5f0e6;
+}
+
+/* HEADER */
+header{
+    position:sticky;
+    top:0;
+    backdrop-filter: blur(12px);
+    background:rgba(10,10,10,0.65);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 25px;
+    border-bottom:1px solid rgba(191,165,122,0.25);
+}
+
+header h1{
+    font-family:'Playfair Display',serif;
+    color:#d6b77a;
+    font-size:1.6rem;
+}
+
+header a{
+    margin-left:15px;
+    text-decoration:none;
+    color:#e8dfd3;
+}
+
+/* HERO */
+.hero{
+    text-align:center;
+    padding:110px 20px 70px;
+}
+
+.hero h2{
+    font-family:'Playfair Display',serif;
+    font-size:3rem;
+    color:#f5f0e6;
+}
+
+.hero p{
+    margin-top:15px;
+    color:#d8d0c2;
+}
+
+.hero span{
+    display:block;
+    margin-top:10px;
+    color:#cbbba0;
+}
+
+/* SECTION */
+.section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.section h2{
+    margin-bottom:20px;
+    color:#d6b77a;
+    font-family:'Playfair Display',serif;
+}
+
+/* CARD */
+.card{
+    background:rgba(255,255,255,0.07);
+    backdrop-filter: blur(14px);
+    border:1px solid rgba(191,165,122,0.25);
+    border-radius:20px;
+    padding:25px;
+    margin:20px auto;
+    max-width:380px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+.price{
+    font-size:2.2rem;
+    color:#d6b77a;
+    margin:10px 0;
+}
+
+ul{list-style:none;margin-top:10px;}
+ul li{margin:6px 0;color:#e8dfd3;}
+
+/* FORM */
+form{
+    max-width:420px;
+    margin:20px auto;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+input,textarea{
+    padding:12px;
+    border-radius:10px;
+    border:none;
+    background:rgba(255,255,255,0.1);
+    color:#fff;
+}
+
+input::placeholder,textarea::placeholder{
+    color:#cbbba0;
+}
+
+button{
+    padding:12px;
+    background:#d6b77a;
+    border:none;
+    color:#111;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+button:hover{
+    background:#e8dfd3;
+}
+
+/* CALL BUTTON */
+.call-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#d6b77a;
+    color:#111;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* MOBILE */
+@media(max-width:600px){
+    .hero h2{font-size:2.2rem;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>LVS Mobile Oil</h1>
+    <div>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+</header>
+
+<section class="hero">
+    <h2>Luxury Mobile Auto Service</h2>
+    <p>Fast. Professional. We Come To You.</p>
+    <span>Serving Riverside & Coachella Valley</span>
+</section>
+
+<!-- OIL SERVICES -->
+<section id="services" class="section">
+    <h2>Oil Change Services</h2>
+
+    <div class="card">
+        <h3>Standard Oil Change</h3>
+        <div class="price">$60</div>
+        <ul>
+            <li>Conventional Oil</li>
+            <li>Oil Filter Included</li>
+            <li>Basic Inspection</li>
+        </ul>
+        <p>+ Mobile Fee</p>
+    </div>
+
+    <div class="card">
+        <h3>Full Synthetic</h3>
+        <div class="price">$100</div>
+        <ul>
+            <li>Full Synthetic Oil</li>
+            <li>Premium Filter</li>
+            <li>Engine Protection</li>
+        </ul>
+        <p>+ Mobile Fee</p>
+    </div>
+</section>
+
+<!-- ADDITION SERVICES (SEPARATE SECTIONS) -->
+<section class="section">
+    <h2>Additional Services</h2>
+
+    <div class="card">
+        <h3>Tire Rotation</h3>
+        <div class="price">$50</div>
+    </div>
+
+    <div class="card">
+        <h3>Headlight Restoration</h3>
+        <div class="price">$30</div>
+    </div>
+
+    <div class="card">
+        <h3>Headlight Bulb Replacement</h3>
+        <div class="price">Varies</div>
+    </div>
+
+    <div class="card">
+        <h3>Spark Plug Replacement</h3>
+        <div class="price">Quote Based</div>
+    </div>
+
+    <div class="card">
+        <h3>Coil Pack Replacement</h3>
+        <div class="price">Quote Based</div>
+    </div>
+
+    <div class="card">
+        <h3>Air Filter Change</h3>
+        <div class="price">$15 – $30</div>
+    </div>
+
+    <div class="card">
+        <h3>Extra Quart of Oil</h3>
+        <div class="price">$5 – $10</div>
+    </div>
+</section>
+
+<!-- FEES -->
+<section class="section">
+    <h2>Mobile Service Fees</h2>
+
+    <div class="card">
+        <ul>
+            <li>Indio — $10</li>
+            <li>Coachella — $20</li>
+            <li>La Quinta — $20</li>
+            <li>Palm Desert — $30</li>
+            <li>Palm Springs — $40</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Book Your Service</h2>
+
+    <form action="https://formspree.io/f/xykbqgnq" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="What service do you need?" required></textarea>
+        <button type="submit">Send Request</button>
+    </form>
+
+    <p>📞 562-209-5123</p>
+</section>
+
+<a href="tel:5622095123" class="call-btn">Call Now</a>
+
+</body>
+</html>
